@@ -12,7 +12,7 @@ public class ApiController {
 
     @GetMapping
     public String sayHello(){
-        for(i=0; i < 1000; i++){
+        for(int i=0; i < 1000; i++){
             String name = "Murat";
             String surname = "ÜSTÜNAL";
             String nameSurname = name + " " + surname;
