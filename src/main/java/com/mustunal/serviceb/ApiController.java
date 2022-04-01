@@ -17,6 +17,6 @@ public class ApiController {
             String surname = "ÜSTÜNAL";
             String nameSurname = name + " " + surname;
         }
-        return "Hello World From Service-B - v3";
+        return "Hello World From Service-B -naming- v3";
     }
 }
