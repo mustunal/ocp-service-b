@@ -12,6 +12,11 @@ public class ApiController {
 
     @GetMapping
     public String sayHello(){
+        for(i=0; i < 1000; i++){
+            String name = "Murat";
+            String surname = "ÜSTÜNAL";
+            String nameSurname = name + " " + surname;
+        }
         return "Hello World From Service-B - v3";
     }
 }
