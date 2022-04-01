@@ -12,6 +12,6 @@ public class ApiController {
 
     @GetMapping
     public String sayHello(){
-        return "Hello World From Service-B";
+        return "Hello World From Service-B - v2";
     }
 }
