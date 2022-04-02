@@ -14,11 +14,9 @@ public class ApiController {
     public String sayHello(){
         for(int i=0; i < 1000; i++){
             for(int y=0; y < 1000; i++){
-                for(int j=0; j < 1000; i++){
                     String name = "Murat";
                     String surname = "ÜSTÜNAL";
                     String nameSurname = name + " " + surname;
-                }   
             }
         }
         return "Hello World From Service-B -naming- v4";
